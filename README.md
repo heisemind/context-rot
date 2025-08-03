@@ -1,4 +1,4 @@
-# ContextRot: Needle in a Haystack Reimplementation
+# Context Rot: Needle in a Haystack Reimplementation
 
 ## Overview
 The [Context Rot](https://research.trychroma.com/context-rot) paper, recently released by the Chroma team, investigates the role of context in language model performance. The authors propose "context engineering" as a field to optimize context structure and evaluate its impact through three problems:
