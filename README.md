@@ -36,15 +36,15 @@ The reimplementation tested multiple models and configurations, yielding results
 Using the "At the Mountains of Madness" manuscript, GPT-3.5 Turbo and o4-mini were compared:
 
 - **Accuracy by Number of Distractors:**
-  ![Accuracy by Number of Distractors](reports/performance\ (COS)/accuracy_by_distractors.png)
+  ![Accuracy by Number of Distractors](reports/performance%20(COS)/accuracy_by_distractors.png)
 - **Accuracy by Needle Position:**
-  ![Accuracy by Needle Position](reports/performance\ (COS)/accuracy_by_position.png)
+  ![Accuracy by Needle Position](reports/performance%20(COS)/accuracy_by_position.png)
 - **Accuracy by Number of Tokens:**
-  ![Accuracy by Number of Tokens](reports/performance\ (COS)/accuracy_by_tokens.png)
+  ![Accuracy by Number of Tokens](reports/performance%20(COS)/accuracy_by_tokens.png)
 - **Overall Accuracy per Model:**
-  ![Overall Accuracy per Model](reports/performance\ (COS)/accuracy_per_model.png)
+  ![Overall Accuracy per Model](reports/performance%20(COS)/accuracy_per_model.png)
 - **Heatmap of Accuracy:**
-  ![Heatmap of Accuracy](reports/performance\ (COS)/heatmap_all_models.png)
+  ![Heatmap of Accuracy](reports/performance%20(COS)/heatmap_all_models.png)
 
 Accuracy decreases with more distractors. Unlike the paper's finding of no positional correlation, both models exhibit higher accuracy for needles at the beginning of the context. o4-mini significantly outperforms GPT-3.5 Turbo.
 
@@ -52,15 +52,15 @@ Accuracy decreases with more distractors. Unlike the paper's finding of no posit
 Using shuffled sentences from cluster two, GPT-3.5 Turbo, o4-mini, GPT-4.1, and Gemini 2.5 Flash were evaluated:
 
 - **Accuracy by Number of Distractors:**
-  ![Accuracy by Number of Distractors](reports/performance\ (shuffled)/accuracy_by_distractors.png)
+  ![Accuracy by Number of Distractors](reports/performance%20(shuffled)/accuracy_by_distractors.png)
 - **Accuracy by Needle Position:**
-  ![Accuracy by Needle Position](reports/performance\ (shuffled)/accuracy_by_position.png)
+  ![Accuracy by Needle Position](reports/performance%20(shuffled)/accuracy_by_position.png)
 - **Accuracy by Number of Tokens:**
-  ![Accuracy by Number of Tokens](reports/performance\ (shuffled)/accuracy_by_tokens.png)
+  ![Accuracy by Number of Tokens](reports/performance%20(shuffled)/accuracy_by_tokens.png)
 - **Overall Accuracy per Model:**
-  ![Overall Accuracy per Model](reports/performance\ (shuffled)/accuracy_per_model.png)
+  ![Overall Accuracy per Model](reports/performance%20(shuffled)/accuracy_per_model.png)
 - **Heatmap of Accuracy:**
-  ![Heatmap of Accuracy](reports/performance\ (shuffled)/heatmap_all_models.png)
+  ![Heatmap of Accuracy](reports/performance%20(shuffled)/heatmap_all_models.png)
 
 Needle position has minimal impact, and the performance drop with increasing context size is less pronounced, consistent with the paper's observation that shuffled context improves performance. GPT-4.1 and o4-mini excel, while GPT-3.5 Turbo performs poorly.
 
